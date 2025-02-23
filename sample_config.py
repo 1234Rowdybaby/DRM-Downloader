@@ -34,7 +34,7 @@ class Config(object):
 
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
-    HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
+    HTTP_PROXY = os.environ.get("HTTP_PROXY", "50.223.246.237")
 
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
