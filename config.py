@@ -3,15 +3,15 @@ import os
 class Config(object):
 
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5992501587:AAGiCkkPIbWYRISAHwmARkSqXnGwQPWyzas")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", "23990433"))
-    API_HASH = os.environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")
+    APP_ID = int(os.environ.get("APP_ID", "24222039"))
+    API_HASH = os.environ.get("API_HASH", "6dd2dc70434b2f577f76a2e993135662")
 
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5821871362").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6046055058").split())
 
     # Ban Unwanted Members..
     BANNED_USERS = []
@@ -46,6 +46,6 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sankar:sankar@sankar.lldcdsx.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Rpsing:Rpsing2003@rpsing.thqdyo6.mongodb.net/?retryWrites=true&w=majority&appName=Rpsing")
     
     
