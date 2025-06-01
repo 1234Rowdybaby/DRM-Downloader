@@ -8,4 +8,4 @@ Pillow
 pyrogram==2.0.106
 requests
 tgcrypto
-git+https://github.com/prgofficial/YouTubeDL
+git+https://github.com/yt-dlp/yt-dlp.git
